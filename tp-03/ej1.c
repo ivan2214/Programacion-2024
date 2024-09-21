@@ -10,6 +10,7 @@ int main()
   int total = 0, cantA = 0, cantE = 0, cantO = 0;
 
   printf("Introduce una frase: ");
+  fflush(stdin);
   scanf("%c", &c);
 
   while (c != marcaFinal)
