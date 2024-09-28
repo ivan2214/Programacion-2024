@@ -51,7 +51,7 @@ double calcularAngulo(double a, double b, double c)
     
     double anguloEnRadianes = acos(arcosenoAngulo);
 
-    // Retornar el angulo en radianes
+    
     return anguloEnRadianes;
 }
 
@@ -74,7 +74,7 @@ int main()
         return 0;
     }
 
-    printf("Cuál angulo desea calcular? (1 para A, 2 para B, 3 para C): ");
+    printf("Cual angulo desea calcular? (1 para A, 2 para B, 3 para C): ");
     scanf("%d", &angulo);
 
     double radianes, grados;
